@@ -2,7 +2,7 @@ import sys
 
 print("Welcome to my computer quiz!")
 
-playing = input("Do you want to play? ").strip().lower()
+playing = input("Do you want to play ? ").strip().lower()
 if playing != "yes":
     sys.exit() # Allows you to quit
 
